@@ -35,8 +35,10 @@ $(document).ready(function(){
 
      if ($(this).text() === 'DESTROY!!'){
         $(this).text('RESURRECT!!');
+        $(this).css('background-color', 'gold');
      } else if ($(this).text() === 'RESURRECT!!'){
         $(this).text('DESTROY!!');
+        $(this).css('background-color', 'red');
      }
    });
 
